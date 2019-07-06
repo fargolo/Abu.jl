@@ -13,3 +13,13 @@ Bug: responsive on Juno but static on Mux.
 ### 0.0.4 - 22/Jun/19  
 **Setup including CmdStan.jl**. 
 The next step is to produce Gadfly plots from stan objects to be displayed as widgets.  
+
+### 0.0.5 - 06/Jul/19
+**Module refactoring**  
+[@fdemacedof](https://github.com/fdemacedof) started to contribute. Utilities for initial data exploration (univariate, bivariate, and multivariate/high-dimensional) were moved to a forked package, [**Beagle.jl**](https://github.com/fdemacedof/Beagle.jl).  
+The interface is now intended to be a modular panel gluing plug-ins which export **Interact.jl** widgets. *Abu.jl** is focused on Bayesian procedures (e.g. diagnostics) and will export GUI elements to the panel.  
+
+
+
+
+

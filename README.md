@@ -1,11 +1,14 @@
-# Abu  
+#Abu.jl  
+**Abu** is **Ally** for **B**ayesian St**U**dies.  
 ![By http://lauracros.com/](abu-laura-cross.jpg)
 
 ---  
 
-Version  : 0.0.4 
-Date     :(25 Jun 2019)
-Mantainer: Felipe Argolo [@argolof](https://github.com/fargolo)  
+Version  : 0.0.5  
+Date     : 06 Jul 2019  
+Mantainer: Felipe C. Argolo [@argolof](https://github.com/fargolo)  
+	   Felipe Ferreira [@fdemacedof](https://guthub.com/fdemacedof)  
+
 
 This software is alpha version. Use at your own risk.  
 
@@ -17,24 +20,19 @@ Abu may be used as a kunya, an honorific. To refer to a man by his fatherhood (o
 
 ---  
 
-## A grimoire for Bayesian Inference
+## A for Bayesian Inference
 
-Software has become a valuable tool for mathematical modelling.  
-Visual (GUI) responsive interfaces (e.g. B.I. dashboards and programs like MS Excel / IBM SPSS) help one to explore ideas, concepts and measurements in real time. They are widely used for several applications, from basic descriptive summaries to specialized model diagnostics.  
+**Abu** aims to be useful for the scientific community by aiding with Bayesian Inference procedures.  
+For an intuitive introduction, take a look at [my book](https://github.com/fargolo/stat-learn-en/blob/master/manuscript/chap5-bayes.md).  
 
----  
-
-### A grimoire ?  
-The word grimoire is related to *grima* ("sorcerer"), but also grammaire ("grammar", a set of rules governing the structure of a language).  
 Abu is developed to mirror the underlying structure of analysis procedures, aiding with off the shelf mathematical tools and visualizations.  
-The first module targets *Baysian inference* using our old friend **Stan** (through CmdStan.jl and Julia capabilties) and Julia capabilties as backend.  
+It uses [Julia interface for Stan](https://github.com/StanJulia/CmdStan.jl) and [loo](https://mc-stan.org/loo/).  In a close future, [Mamba.jl](https://github.com/brian-j-smith/Mamba.jl).  
+  
+---  
+### Features
 
-
-**Abu** aims to be:  
-* Intuitive. It should intertwine *data, abstractions and representations* to aid **thinking**. It is intended to run *"What you see is what you get"* responsive panels for real-time manipulation. Pipelines are based on analysis procedures. Check out [Luna Lang](https://docs.luna-lang.org/) for a more general purpose WYSIWYG software.  
-* Plug and play. We aim for small installing & configuration times. The GUI is web based, like [Jupyter](https://jupyter.org/) and [Tableau](https://www.tableau.com/). [R Shiny](https://shiny.rstudio.com/).  
-* Fast. **Abu** uses **Julia** under the hood. 
-* Useful. I am a researcher building a tool *for myself and for the community*. For more on my views, take a look at [my book](https://github.com/fargolo/stat-learn-en).  
+	*  Sensitivity analysis for *priors* and *likelihood function*. Interactive simulation of scenarios using assets for fast processing (conjugate distributions, Variational inference) and samples from the original data.   
+	*  Diagnostics for Convergence criteria and Goodness of Fit (e.g. WAIC)
 
 ## Releases / Contributors guide
 
