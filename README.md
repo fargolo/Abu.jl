@@ -1,5 +1,6 @@
-#Abu.jl  
-**Abu** is **Ally** for **B**ayesian St**U**dies.  
+# Abu.jl  
+
+**Abu** is an **Ally** for **B**ayesian St**U**dies.  
 ![By http://lauracros.com/](abu-laura-cross.jpg)
 
 ---  
@@ -22,17 +23,18 @@ Abu may be used as a kunya, an honorific. To refer to a man by his fatherhood (o
 
 ## A for Bayesian Inference
 
-**Abu** aims to be useful for the scientific community by aiding with Bayesian Inference procedures.  
-For an intuitive introduction, take a look at [my book](https://github.com/fargolo/stat-learn-en/blob/master/manuscript/chap5-bayes.md).  
+**Abu** aids with *Bayesian Inference* procedures.  
+For an intuitive introduction about it, I recommend [this text](https://github.com/fargolo/stat-learn-en/blob/master/manuscript/chap5-bayes.md).  
 
-Abu is developed to mirror the underlying structure of analysis procedures, aiding with off the shelf mathematical tools and visualizations.  
-It uses [Julia interface for Stan](https://github.com/StanJulia/CmdStan.jl) and [loo](https://mc-stan.org/loo/).  In a close future, [Mamba.jl](https://github.com/brian-j-smith/Mamba.jl).  
+Abu offers mathematical tools and visualization schemes that mirror abstractions used in Bayesian analysis. It exports **Interact.jl** widgets.   
   
 ---  
-### Features
+### Features  
 
-	*  Sensitivity analysis for *priors* and *likelihood function*. Interactive simulation of scenarios using assets for fast processing (conjugate distributions, Variational inference) and samples from the original data.   
-	*  Diagnostics for Convergence criteria and Goodness of Fit (e.g. WAIC)
+	*  Interactive simulations of restricted scenarios (e.g. conjugate distributions). It explores *posterior* sensitivity to user choices (e.g. hyperparameters and family of *prior distribution*)  
+		*  Gaussian conjugates with known precision.  
+	*  ( ) Diagnostics for Convergence criteria and Goodness of Fit (e.g. WAIC)  
+	*  ( ) Scaffolded pipelines of analysis for common models (e.g. Gaussian Processes)  
 
 ## Releases / Contributors guide
 
