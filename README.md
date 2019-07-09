@@ -42,3 +42,7 @@ Check the specific documentation for [contributions](docs/contrib.md) and [relea
 
 You can read an introduction to the philosophy and basic applications of Bayesian inference [here (undergoing translation)](https://github.com/fargolo/stat-learn-en/blob/master/manuscript/chap5-bayes.md). Check the book *Statistical Rethinking: A Bayesian Course with Examples in R and Stan (Chapman & Hall/CRC Texts in Statistical Science)* for in depth content.  
 The initial module will offer capabilties similar to [shinystan](https://mc-stan.org/users/interfaces/shinystan) along with a few more utilities.  
+
+### Demo  
+---  
+![](demo_gauss.gif)
