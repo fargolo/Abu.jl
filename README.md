@@ -1,3 +1,6 @@
+This project is currently on hold due to the efforts required by my ongoing Ph.D.
+
+---
 # Abu.jl  
 
 **Abu** is an **Ally** for **B**ayesian St**U**dies.  
